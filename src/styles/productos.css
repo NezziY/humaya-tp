@@ -1,0 +1,43 @@
+section {
+    height: 88vh;
+    padding-bottom: 7em;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-overflow {
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(53, 32, 20, 0.747);
+    transition: all 0.3s linear;
+    
+}
+
+.card-img-top {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+
+.title {
+    color: #230e06;
+}
+
+.tradicional {
+    background-color: #721919;
+}
+
+.light {
+    background-color: #a75948;
+}
+
+.choco{
+    background-color: #63534b;
+}

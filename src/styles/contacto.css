@@ -1,0 +1,38 @@
+.titulo{
+    background-color: #524138;
+}
+
+.contacto {
+    background-color: #a75948;
+}
+
+.text-area {
+    max-height: 140px;
+}
+
+input.form-control:focus {
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+textarea.form-control:focus{
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.btn-contacto {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.btn-contacto:hover{
+    border: none;
+    background: #610d0d;
+    padding: 0;
+}
+.btn-contacto:active{
+    border: none;
+    background: #721919;
+    padding: 0;
+}

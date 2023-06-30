@@ -1,0 +1,33 @@
+.cabecera {
+    height: 88vh;
+    position: relative;
+    background-image: linear-gradient(to right bottom, #382b24, #85756c, #a99a90, #e4dbd5, #f5e7dc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-fondo {
+    position: absolute;
+    top: 20%;
+	left: 5%;
+}
+
+.titulo-portada {
+    -webkit-text-stroke: 1px #230e06;
+}
+
+.texto-frente {
+    position: fixed;
+}
+
+.cabecera h1{
+    font-size: 5em;
+}
+
+.calidad{
+    background: #382b24;
+    border-radius: 15px;
+}
+

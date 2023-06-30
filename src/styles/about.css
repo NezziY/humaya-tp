@@ -1,0 +1,24 @@
+.about-us {
+    height: 90vh;
+    color: white;
+    background-image: url('/public/images/vaquitas.jpg');
+    background-repeat: no-repeat;
+    background-size : cover;
+}
+
+.item {
+    min-height: 8rem;
+    width: 35rem;
+    padding: 1em;
+}
+
+.inner-carousel {
+    display: flex;
+    background: #a75948;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
