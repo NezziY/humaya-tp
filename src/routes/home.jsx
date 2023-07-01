@@ -11,7 +11,10 @@ function AutoLayoutExample() {
         <Menu />
         <Container fluid className="cabecera">
             <div className="img-fondo">
-                <img src="/images/frasco-portada.png" alt="Humaya" />
+                <img 
+                src="/images/frasco-portada.png"
+                height="100%"
+                alt="Humaya" />
             </div>
 
             <div className="texto-frente">
@@ -69,9 +72,9 @@ function AutoLayoutExample() {
             
         </Container>
         
-        <footer>
-            <Footer />
-        </footer>
+      
+        <Footer />
+     
         
     </div>
     

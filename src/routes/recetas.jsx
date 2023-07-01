@@ -87,9 +87,9 @@ function Recetario() {
           </Row>
         </Container>
         
-      <footer>
+  
         <Footer />
-      </footer>
+ 
     </>
     
     

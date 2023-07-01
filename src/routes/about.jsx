@@ -92,10 +92,9 @@ export default function About(){
               </Row>
             </Container>  
           </section>
-
-          <footer>
-            <Footer /> 
-          </footer>  
+          
+          <Footer /> 
+          
            
         </div>
     );

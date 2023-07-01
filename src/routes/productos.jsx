@@ -17,7 +17,7 @@ export default function Productos(){
 
                     <Row>
 
-                        <Col xs={12} md={12} lg={4}>
+                        <Col xs={12} md={6} lg={4}>
                             <Card>
                                 <div className="c-overflow">
                                     <Card.Img variant="top" src="images/tradicional.jpg" />
@@ -34,7 +34,7 @@ export default function Productos(){
                             </Card>
                         </Col>
 
-                        <Col xs={12} md={12} lg={4}>
+                        <Col xs={12} md={6} lg={4}>
                             <Card >
                                 <div className="c-overflow">
                                     <Card.Img variant="top" src="images/dieta.jpg" />
@@ -49,7 +49,7 @@ export default function Productos(){
                             </Card> 
                         </Col> 
 
-                        <Col xs={12} md={12} lg={4}>
+                        <Col xs={12} md={6} lg={4}>
                            <Card >
                             <div className="c-overflow">
                                 <Card.Img variant="top" src="images/choconut.jpg" />
@@ -72,9 +72,8 @@ export default function Productos(){
    
             </section>
 
-            <footer>
-                <Footer />
-            </footer>
+            <Footer />
+         
             
         </div>
     );
