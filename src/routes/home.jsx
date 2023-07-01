@@ -21,7 +21,7 @@ function AutoLayoutExample() {
                 <Row>
                     <Col className="titulo-portada" md={{ span: 6, offset: 3 }}><h1 className='animate__animated animate__pulse'>HUMAYA</h1></Col>
                 </Row>
-                <Row className="py-5">    
+                <Row className="chamuyo py-5">    
                     <Col></Col>
 
                     <Col className="calidad flex m-3 p-4">

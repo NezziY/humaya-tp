@@ -31,3 +31,8 @@
     border-radius: 15px;
 }
 
+@media (max-width: 900px) {
+    .chamuyo {
+      display: none;
+    }
+  }
