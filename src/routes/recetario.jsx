@@ -3,11 +3,11 @@ import { Container, Button, Card, Row, Col, Modal } from 'react-bootstrap';
 import { dataRecetas } from '../data/recetas';
 import Menu from "../components/menu";
 import Footer from "../components/footer";
+import "../styles/recetario.css"
 
 function Recetario() {
 
   const [showModal, setShowModal] = React.useState(false);
-  const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [selectedRecipeId, setSelectedRecipeId] = useState(null);
 
   const openModal = (recipeId) => {
@@ -18,16 +18,13 @@ function Recetario() {
     setShowModal(false);
   }
 
-  const selectRecipe = () => {
-    setSelectedRecipe();
-    openModal();
-  }
-
-  
-
+ 
   return (
-    <>
-      <Menu />
+    <div className='recetario'>
+      <header>
+        <Menu />
+      </header>
+      <main>
         <Container className='justify-content-center'>
 
           <div className='text-center py-3'>
@@ -86,11 +83,13 @@ function Recetario() {
           ))}
           </Row>
         </Container>
-        
-  
-        <Footer />
- 
-    </>
+      </main>  
+      
+      <footer>
+       <Footer /> 
+      </footer>
+
+    </div>
     
     
   );

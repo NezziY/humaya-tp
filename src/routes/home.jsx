@@ -10,19 +10,18 @@ function AutoLayoutExample() {
     <div>
         <Menu />
         <Container fluid className="cabecera">
-            <div className="img-fondo">
-                <img 
-                src="/images/frasco-portada.png"
-                height="100%"
-                alt="Humaya" />
-            </div>
-
+            
             <div className="texto-frente">
                 <Row>
                     <Col className="titulo-portada" md={{ span: 6, offset: 3 }}><h1 className='animate__animated animate__pulse'>HUMAYA</h1></Col>
                 </Row>
                 <Row className="chamuyo py-5">    
-                    <Col></Col>
+                    <Col>
+                        <img 
+                        src="/images/frasco-portada.png"
+                        width="70%"
+                        alt="Humaya" />
+                    </Col>
 
                     <Col className="calidad flex m-3 p-4">
                         <div className="text-center">
@@ -53,13 +52,12 @@ function AutoLayoutExample() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col></Col>
                     <Col>
                         <div>
                             <Link to="/recetas">
                                 <img 
                                 src="/images/recetario.png" 
-                                width="60%" 
+                                width="25%" 
                                 alt="recetas"
                                 />
                             </Link>  

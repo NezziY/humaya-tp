@@ -1,15 +1,12 @@
 body {
   padding: 0;
   margin: 0;
-  min-height: 100vh;
-  position: relative;
   background: #f5e7dc;
   color: white;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
+
 }
 
 code {

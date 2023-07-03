@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, CardGroup } from 'react-bootstrap';
 import Menu from "../components/menu";
 import Footer from "../components/footer";
 import '../styles/productos.css';
@@ -17,7 +17,8 @@ export default function Productos(){
 
                     <Row>
 
-                        <Col xs={12} md={6} lg={4}>
+                        <Col className='d-flex'>
+                            <CardGroup>
                             <Card>
                                 <div className="c-overflow">
                                     <Card.Img variant="top" src="images/tradicional.jpg" />
@@ -32,9 +33,7 @@ export default function Productos(){
                                     <Button variant="light">+ INFO</Button>
                                 </Card.Body>
                             </Card>
-                        </Col>
-
-                        <Col xs={12} md={6} lg={4}>
+                        
                             <Card >
                                 <div className="c-overflow">
                                     <Card.Img variant="top" src="images/dieta.jpg" />
@@ -47,9 +46,7 @@ export default function Productos(){
                                     <Button variant="light">+ INFO</Button>
                                 </Card.Body>
                             </Card> 
-                        </Col> 
-
-                        <Col xs={12} md={6} lg={4}>
+                       
                            <Card >
                             <div className="c-overflow">
                                 <Card.Img variant="top" src="images/choconut.jpg" />
@@ -62,11 +59,13 @@ export default function Productos(){
                                     </Card.Text>
                                     <Button variant="light">+ INFO</Button>
                                 </Card.Body>
-                            </Card> 
+                            </Card>
+
+                            </CardGroup> 
                         </Col>
 
                     </Row>
-                    
+
 
                 </Container>
    

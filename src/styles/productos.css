@@ -1,3 +1,7 @@
+section {
+    min-height: 91vh;
+}
+
 .productos {
     display: flex;
     flex-direction: row;
