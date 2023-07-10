@@ -1,5 +1,5 @@
 .about-us {
-    height: 90vh;
+    min-height: 90vh;
     color: white;
     background-image: url('/public/images/vaquitas.jpg');
     background-repeat: no-repeat;
